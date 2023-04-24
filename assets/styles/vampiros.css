@@ -1,0 +1,13 @@
+body{
+    background-image: url("/assets/images/Castillo.png");
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+nav li a{
+    color: rgb(221, 219, 219);
+    text-decoration:none;
+    font-family:cursive;
+    clip-path:
+} 

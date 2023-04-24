@@ -1,0 +1,48 @@
+body{
+    background-color: blueviolet;
+
+}
+.contenedor{
+    background-image: url("/assets/images/fodo_cazador.jpg");
+    height: 80vh;
+    margin: auto;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    
+    
+    
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+nav li a{
+    color: black;
+    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contenedor div{
+    margin: 20px;
+    position: relative;
+    border: 3px solid #ccc;
+    border-radius: 0.2em;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    font-size: 5em;
+
+    /*box-shadow: 20px 20px 15px rgba(233, 224, 224, 0.5);
+    /*FLEX*/
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.contenedor div:hover{
+    box-shadow: 20px 20px 10px rgba(46, 43, 43, 0.8);
+    border-color: black;
+}
+
